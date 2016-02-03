@@ -1,0 +1,66 @@
+package u6;
+
+import java.util.Random;
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+public class RockPaperScissors {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		Random rand = new Random();
+
+		int playerScore = 0;
+		int compScore = 0;
+
+		String answer = "";
+		String comp = "";
+
+		JOptionPane.showMessageDialog(null, "Let's play rock paper scissors!");
+		System.out.println("Lets play rock paper scissors!\nEnter your choice: (r)ock, (p)aper, (s)cissors.");
+
+		while (!answer.equals("n")) {
+			String[] choices = { "rock", "paper", "scissors" };
+			String choice = (String) JOptionPane.showInputDialog(null, "What are you going to show?", "Input",
+					JOptionPane.QUESTION_MESSAGE, null, choices, choices[0]);
+			System.out.println(choice);
+			if ((choice.equals("r")) || (choice.equals("p")) || (choice.equals("s"))) {
+				int compChoice = rand.nextInt(3);
+				switch(compChoice){
+				case 0:
+					comp = "rock";
+				case 1:
+					comp = "paper";
+				case 2:
+					comp = "scissors";
+				}
+				if ((compChoice == 0 && choice.equals("paper")) || (compChoice == 1 && choice.equals("scissors"))
+						|| (compChoice == 2 && choice.equals("rock"))) { //
+
+					JOptionPane.showMessageDialog(null, "You win!\nYou chose " + choice + ", the computer choses " + comp + "!");
+					playerScore++;
+				} 
+				else if ((compChoice == 0 && choice.equals("scissors")) || (compChoice == 1 && choice.equals("rock"))
+						|| (compChoice == 2 && choice.equals("paper"))) { // Computer chooses paper
+						System.out.println("You lose!\nYou chose " + choice + ", the computer chose " + comp + "!");
+						compScore++;
+				} 
+				else if ((compChoice == 0 && choice.equals("rock")) || (compChoice == 1 && choice.equals("paper"))
+						|| (compChoice == 2 && choice.equals("scissors"))) { // Computer chooses scissors
+						System.out.println("You tied!\nYou both chose " + choice + "!");
+				
+				
+				}
+			}
+			System.out.println("Current score is: You " + playerScore + "; Computer " + compScore);
+			System.out.println("Would you like to play again? (y/n)");
+			answer = input.nextLine();
+			while (!answer.equals("y") && !answer.equals("n")) {
+				System.out.println("Please re-enter your choice. Would you like to play again? (y/n)");
+				answer = input.nextLine();
+			}
+
+			System.out.println("Enter your choice: (r)ock, (p)aper, (s)cissors.");
+		}
+		System.out.println("It has been fun. Here is the final score.\nYou: " + playerScore + "; Computer: " + compScore);
+	}

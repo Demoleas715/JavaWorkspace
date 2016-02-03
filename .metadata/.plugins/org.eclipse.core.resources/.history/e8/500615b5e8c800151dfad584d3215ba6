@@ -1,0 +1,15 @@
+package u6;
+
+import java.util.Scanner;
+
+public class PrimeChecker {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Scanner input = new Scanner (System.in);
+			System.out.println("Enter an integer and I will tell you if it is prime.");
+			int num = input.nextInt();
+			double sqrt = Math.sqrt(num)
+	}
+
+}
