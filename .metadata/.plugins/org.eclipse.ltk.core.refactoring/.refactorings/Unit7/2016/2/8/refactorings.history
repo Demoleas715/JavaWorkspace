@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;u7.CallStack.java&apos; to &apos;Stacks.java&apos;&#x0D;&#x0A;- Original project: &apos;Unit7&apos;&#x0D;&#x0A;- Original element: &apos;u7.CallStack.java&apos;&#x0D;&#x0A;- Renamed element: &apos;u7.Stacks.java&apos;" description="Rename compilation unit &apos;CallStack.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;u7{CallStack.java" name="Stacks.java" references="false" stamp="1455802132584" version="1.0"/>
+</session>
