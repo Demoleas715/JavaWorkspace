@@ -1,0 +1,15 @@
+package u7.ex;
+
+public class Ex5_1 {
+
+	public static int getPentagonalNumber(int n) {
+		int pentagonal = n * (3 * n - 1) / 2;
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
