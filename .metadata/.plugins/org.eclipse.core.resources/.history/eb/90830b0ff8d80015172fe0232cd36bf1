@@ -1,0 +1,14 @@
+package u7.ex;
+
+import java.util.Scanner;
+
+public class Ex5_4 {
+
+	public static void reverse(int number){
+		Scanner input = new Scanner (System.in);
+		System.out.println("Enter a number to be reversed");
+		int n = input.nextInt();
+		String num = Integer.toString(n);
+		for (int i = num.length()-1; i>0; )
+	}
+}

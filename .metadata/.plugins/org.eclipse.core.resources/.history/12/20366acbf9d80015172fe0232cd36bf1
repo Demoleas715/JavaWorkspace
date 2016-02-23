@@ -1,0 +1,16 @@
+package u7.ex;
+
+public class Ex5_8 {
+
+	public static double celsiusToFahrenheit(double celsius) {
+		return double fahrenheit = (9.0 / 5) * celsius + 32;
+	}
+
+	public static double fahrenheitToCelsius(double fahrenheit) {
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+}
