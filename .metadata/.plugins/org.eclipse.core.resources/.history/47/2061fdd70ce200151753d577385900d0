@@ -1,0 +1,16 @@
+package u7;
+
+public class Sorting {
+
+	public static int[] getNewArray (int size){
+		Random rand = new Random();
+		int[] nums = new int[size];
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

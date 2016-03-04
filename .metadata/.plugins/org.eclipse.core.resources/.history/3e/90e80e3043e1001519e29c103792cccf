@@ -1,0 +1,15 @@
+package u7.ex;
+
+import java.util.Scanner;
+
+public class Ex6_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the number of students: ");
+		int num = input.nextInt();
+		System.out.println("Enter " + num + " scores: ");
+	}
+
+}
