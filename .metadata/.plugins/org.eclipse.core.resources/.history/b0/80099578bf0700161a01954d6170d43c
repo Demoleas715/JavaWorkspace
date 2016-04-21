@@ -1,0 +1,11 @@
+package u8.inheritance;
+
+public class Teacher extends Person {
+
+	private String department;
+
+	public Teacher(String firstName, String lastName, String department) {
+		super(firstName, lastName);
+		this.department = department;
+	}
+}

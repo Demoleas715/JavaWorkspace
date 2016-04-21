@@ -1,0 +1,10 @@
+package u8.inheritance;
+
+public class Student extends Person{
+
+	private int yearOfGraduation;
+	
+	public Circle(String firstName, String lastName, int yearOfGraduation) {
+		
+	}
+}
