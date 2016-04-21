@@ -1,0 +1,12 @@
+package u8.day12;
+
+public class ShapeTest {
+	public static void main(String[] args) {
+		Point p1 = new Point(15, 2);
+		Point p2 = new Point(-2, 4);
+		Point p3 = new Point(5, -3);
+
+		Shape[] a = new Shape[4];
+		a[0] = new Circle(p1, 5);
+	}
+}

@@ -2,17 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="-15" key="selection"/>
+		<item value="numItems" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="numItem"/>
+			<item value="quantityPurchased"/>
+			<item value="unitCost"/>
+			<item value="unitPrice"/>
+			<item value="int"/>
 			<item value="15"/>
 			<item value="20"/>
 			<item value="input"/>
 		</list>
 		<list key="replacehistory">
+			<item value="numItems"/>
+			<item value="quantity"/>
+			<item value="unitPrice"/>
+			<item value="unitCost"/>
+			<item value="double"/>
 			<item value="-15"/>
 			<item value="15"/>
 		</list>

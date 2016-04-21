@@ -1,0 +1,9 @@
+package u8.day12;
+
+public class Shape {
+	protected String name = "";
+
+	public Shape (String name) {
+		this.name = name
+	}
+}
